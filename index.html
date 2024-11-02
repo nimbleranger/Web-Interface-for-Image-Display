@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vancouver Island Family Trip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        #header {
+            text-align: center;
+            background-color: #4682b4;
+            color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            font-size: 32px;
+            border-radius: 8px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .thumbnail {
+            flex: 1 1 200px;
+            max-width: 200px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .thumbnail:hover {
+            transform: scale(1.05);
+            border-color: #4682b4;
+        }
+        .credits {
+            margin-top: 30px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .credits a {
+            color: #4682b4;
+            text-decoration: none;
+        }
+        .credits a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">Vancouver Island Family Trip</div>
+    <div class="gallery">
+        <a href="image1.jpg" class="thumbnail">
+            <img src="image1.jpg" alt="Family Trip Photo 1">
+        </a>
+        <a href="image2.jpg" class="thumbnail">
+            <img src="image2.jpg" alt="Family Trip Photo 2">
+        </a>
+        <a href="image3.jpg" class="thumbnail">
+            <img src="image3.jpg" alt="Family Trip Photo 3">
+        </a>
+        <a href="image4.jpg" class="thumbnail">
+            <img src="image4.jpg" alt="Family Trip Photo 4">
+        </a>
+        <a href="image5.jpg" class="thumbnail">
+            <img src="image5.jpg" alt="Family Trip Photo 5">
+        </a>
+        <a href="image6.jpg" class="thumbnail">
+            <img src="image6.jpg" alt="Family Trip Photo 6">
+        </a>
+        <a href="image7.jpg" class="thumbnail">
+            <img src="image7.jpg" alt="Family Trip Photo 7">
+        </a>
+    </div>
+    <div class="credits">
+        <p>All photos are from our family trip to Vancouver Island. Special thanks to <a href="https://www.vancouverisland.com/" target="_blank">Vancouver Island Tourism</a> for inspiration and travel information.</p>
+    </div>
+</body>
+</html>
